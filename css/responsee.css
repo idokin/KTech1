@@ -542,7 +542,10 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   .s-12 {width:100%}
 }  
 
-
+.footerLine{
+    align-content: center;
+    text-align: center;
+}
 .center {
   float:none;
   margin:0 auto;
