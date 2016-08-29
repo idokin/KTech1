@@ -92,14 +92,14 @@ h5 {font-size:1.1rem;}
 h6 {font-size:0.9rem;}    
 a, a:link, a:visited, a:hover, a:active {
   text-decoration:none;
-  color:#9BB800;
+
   transition:color 0.20s linear 0s;
   -o-transition:color 0.20s linear 0s;
   -ms-transition:color 0.20s linear 0s;
   -moz-transition:color 0.20s linear 0s;
   -webkit-transition:color 0.20s linear 0s;
 }  
-a:hover {color:#B6C900;}
+a:hover {color:#152732;}
 p,li,dl,blockquote,table,kbd {
   font-size: 0.85rem;
   line-height: 1.6;
@@ -608,7 +608,10 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
   .s-11 {width:91.6666%;}
   .s-12 {width:100%}
 }  
-
+img.resize{
+   max-width:50%;
+   max-height:50%;
+}
 .footerLine{
     align-content: center;
     text-align: center;
