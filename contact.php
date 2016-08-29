@@ -47,7 +47,7 @@
             <div class="margin">
                <!-- ASIDE NAV 1 -->
                <aside class="s-12 l-3">
-                  <h3>Navigation</h3>
+             
                   <div class="aside-nav">
                      <ul>
                         <li><a>Home Services</a></li>
