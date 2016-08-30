@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 *{
-    padding: 0;
+    padding-top: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
@@ -76,7 +76,7 @@ body {
   font-size:16px;
   font-family:"Open Sans",Arial,sans-serif;
   color:#444;
-  padding-top: 10px
+  
 }
 h1,h2,h3,h4,h5,h6 {
   color:#152732;
@@ -108,6 +108,7 @@ b,strong {font-weight:700;}
 .text-center {text-align:center!important;}
 .text-right {text-align:right!important;}
 img {
+    padding: 10px;
   border:0;
   display:block;
   height:auto;
@@ -132,7 +133,7 @@ th,table tr:nth-of-type(2n) td {border-right:1px solid #fff;}
 td {border-right:1px solid #f0f0f0;}
 .size-960 .line,.size-1140 .line,.size-1280 .line {
   margin:0 ;
-  padding:0 ;
+  padding-bottom:0 ;
 }
 hr {
   border: 0;
@@ -215,6 +216,7 @@ nav {
   min-width:100%;
   padding:0;
 }
+
 .count-number {
   background: rgba(153, 153, 153, 0.25) none repeat scroll 0 0;
   border-radius: 10rem;
@@ -390,7 +392,9 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
 .l-10 {width:83.3333%;}
 .l-11 {width:91.6666%;}
 .l-12 {width:100%;}
-.right {float:right;}
+.right {float:right  ;
+margin-top: 34px;
+ }
 .left {float:left;}  
 @media screen and (max-width:768px) {
   .size-960,.size-1140,.size-1280 {max-width:768px;}
@@ -400,6 +404,8 @@ ul.chevron .submenu > a:after, ul.chevron .sub-submenu > a:after,ul.chevron .asi
     display:block;
     cursor:pointer;
     line-height:3;
+    padding-top: 10px;
+    padding-right: 10px;
   }
   .top-nav li a {background:none repeat scroll 0 0 #4a4a4a;}
   .top-nav > ul {
